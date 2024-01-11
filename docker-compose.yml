@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  healthcheck.api:
+    container_name: healthcheck.api
+    image: healthcheck.api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
+    environment:
+      - PORT=80

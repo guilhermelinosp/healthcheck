@@ -1,0 +1,11 @@
+node_modules
+dist
+test
+.dockerignore
+Dockerfile
+README.md
+*.md
+*.ts
+*.lock
+npm-debug.log
+yarn-error.log
